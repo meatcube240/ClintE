@@ -15,7 +15,7 @@ text-align: center;
   margin-top: 100px;
 }
 #movieBox{
-  width: 90%;
+  width: 100%;
 }
 #movieLink{
   max-width: 100%;
@@ -27,4 +27,25 @@ text-align: center;
 img{
   max-width: 100%;
   margin: 5px;
+}
+
+/* MEDIA QUERIES*/
+@media only screen and (max-width : 940px),
+only screen and (max-device-width : 940px){
+ .movieLink {width: 21%;}
+}
+
+@media only screen and (max-width : 720px),
+only screen and (max-device-width : 720px){
+ .movieLink {width: 29.33333%;}
+}
+
+@media only screen and (max-width : 530px),
+only screen and (max-device-width : 530px){
+ .movieLink {width: 46%;}
+}
+
+@media only screen and (max-width : 320px),
+only screen and (max-device-width : 320px){
+ .movieLink {width: 96%;}
 }
